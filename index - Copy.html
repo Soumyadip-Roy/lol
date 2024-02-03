@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,500;0,700;1,200&family=Oleo+Script&family=Oswald:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Poppins:wght@300&family=Quicksand:wght@400;700&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="collage.css">
+  
+  <title>Document</title>
+</head>
+
+<body>
+  <div style="position: fixed; width: 100%; z-index: 1;">
+    <div style="height: 40px; background-color: #0C2695;">
+    </div>
+    <div class="header" id="header">
+      <div class="head">
+        <img src="AIT LOGO.png" alt="logo ait" style="width: 60px;">
+        <p>Army Institute of Technology, Pune</p>
+      </div>
+      <div style="display: flex;" class="side">
+        <nav id="navele" class="navele">
+        <a href="ABOUT_US.html">About Us</a>
+        <a href="#">Admissions</a>
+        <a href="#">Research</a>
+        <a href="#">Students</a>
+        <a href="#">Admin</a>  
+        <img src="awes.jpg" alt="" id="always" style="height: 50px; margin-bottom: 15px;" >
+        </nav>
+      </div>
+      <div class="hamburger" onclick="menuView()">
+      <div id = "hamburger">
+      <img src="./img/icons/cancel.svg" alt="cancel">
+      <img src="./img/icons/ham.svg" alt="ham">
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="empty" style="height: 120px;"></div>
+  <div class="first">
+    <div class="slider-container">
+      <div class="slider" id="slider">
+        <div class="slide"><img src="./img/slide1.jpeg" alt="Slide 1"></div>
+        <div class="slide"><img src="./img/campus 2.png" alt="Slide 2"></div>
+        <div class="slide"><img src="./img/slide1.jpeg" alt="Slide 2"></div>
+        <!-- add more images above -->
+      </div>
+      <button id="prevBtn" onclick="prevSlide()">&#10094;</button>
+      <button id="nextBtn" onclick="nextSlide()">&#10095;</button>
+      <div class="dot-container" id="dotContainer"></div>
+    </div>
+    <div class="show">
+      <p class="a">Admissions 2023-24</p>
+      <p class="b"> <a style="margin-top: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate, porro!</a> </p>
+      <p class="c"> <a style="margin-top: 20px;">Learn More</a> </p>
+    </div>
+  </div>
+
+  <div class="Departments">
+    <h1 align="center" style="color: #0C2695;">Departments</h1>
+    <p align="center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="card-container">
+      <div class="cards">
+        <img src="./img/asge.png" alt="asge" class="logo">
+        <p align="center">Applied Science and General Engineering</p>
+        <a class="bluebar" href="ASGE_HOD_DESk.html">Learn More</a>
+      </div>
+      <div class="cards">
+        <img src="./img/asge.png" alt="asge" class="logo">
+        <p align="center" style="padding-bottom: 25px;">Information technology</p>
+        <a class="bluebar" href="IT_HOD_DESk.html">Learn More</a>
+      </div>
+      <div class="cards">
+        <img src="./img/asge.png" alt="asge" class="logo">
+        <p align="center">Applied Science and General Engineering</p>
+        <a class="bluebar">Learn More</a>
+      </div>
+      <div class="cards">
+        <img src="./img/asge.png" alt="asge" class="logo">
+        <p align="center">Applied Science and General Engineering</p>
+        <a class="bluebar">Learn More</a>
+      </div>
+      <div class="cards">
+        <img src="./img/asge.png" alt="asge" class="logo">
+        <p align="center">Applied Science and General Engineering</p>
+        <a class="bluebar">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="about">
+    <iframe class="player" width="540" height="350" src="https://www.youtube.com/embed/FOQm1JPJ7BI" frameborder="0" allowfullscreen></iframe>
+    <div class="content">
+      <h4>About us</h3>
+      <h2>Dedicated to the service of the nation</h2>
+      <p>
+        The motto of All Pune is ll translates to
+"Excellence in action is Yoga", essentially implying that doing your work well is (true) yoga. This can be traced to Sri Krishna's discourse with Arjuna in the Bhagavad Gita. The quote, in the larger context of the Gita, urges man to acquire equanimity because a mind of equanimity allows a man to shed distracting thoughts of the effects of his deeds and concentrate on the task before him. Equanimity is the source of perfection in Karmic endeavours that leads to Salvation.
+      </p> <br> <br>
+      <div class="bluebar">Learn More</div>
+    </div>
+  </div>
+  <div class="Departments">
+    <div class="top">
+      <div>
+        <div class="banner" style="display: flex; margin: 0;">
+          <img src="./img/notices.svg" alt="events">
+          <div style="color: #0C2695; font-weight: bold; font-size: 23px;">Notices</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, debitis.</p>
+      </div>
+      <p class="bluebar">View all</p>
+    </div>
+    <div class="notices">
+      <div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Walk in Interview - Asst Professor(Maths)</p>
+      </div>
+      <div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Walk in Interview - Asst Professor(Maths)</p>
+      </div><div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Walk in Interview - Asst Professor(Maths)</p>
+      </div><div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Walk in Interview - Asst Professor(Maths)</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="campus">
+    <h2>Campus Life</h2>
+    <div class="custom-slider-container">
+      <div class="custom-slider" id="custom-slider">
+        <div class="custom-slide"><img src="./img/slide1.jpeg" alt="Slide 1"></div>
+        <div class="custom-slide"><img src="./img/campus 2.png" alt="Slide 2"></div>
+        <div class="custom-slide"><img src="./img/slide1.jpeg" alt="Slide 3"></div>
+        <div class="custom-slide"><img src="./img/slide1.jpeg" alt="Slide 3"></div>
+        <div class="custom-slide"><img src="./img/slide1.jpeg" alt="Slide 3"></div>
+        <!-- Add more slides as needed -->
+      </div>
+      <button id="custom-prevBtn" onclick="customPrevSlide()">&#10094;</button>
+      <button id="custom-nextBtn" onclick="customNextSlide()">&#10095;</button>
+      <div class="curr">
+        <div class="curtain">
+          bd
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Departments">
+    <div class="top">
+      <div>
+        <div class="banner" style="display: flex; margin: 0;">
+          <img src="./img/events.svg" alt="events">
+          <div style="color: #0C2695; font-weight: bold; font-size: 23px;">Latest events</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, debitis.</p>
+      </div>
+      <p class="bluebar">View all</p>
+    </div>
+    <div class="events">
+      
+      <div class="card">
+        <img src="./img/campus 2.png" alt="event">
+        <div class="des">
+          <h4>16 Oct 2023</h4>
+          <p>Event Name</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/campus 2.png" alt="event">
+        <div class="des">
+          <h4>16 Oct 2023</h4>
+          <p>Event Name</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/campus 2.png" alt="event">
+        <div class="des">
+          <h4>16 Oct 2023</h4>
+          <p>Event Name</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="./img/campus 2.png" alt="event">
+        <div class="des">
+          <h4>16 Oct 2023</h4>
+          <p>Event Name</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="importantLinks">
+
+    <div class="importantLinksHeading">
+      IMPORTANT LINKS
+    </div>
+    <div class="links">
+      <div class="row">
+      <div class="logo">
+      <div class="logoimg"><img src="diamond.png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u >Compulsory</u></div>
+    </div>
+    <div class="row">
+      <div class="logo">
+        <div class="logoimg"><img src="hexagon (1).png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u>NIRF</u></div>
+    </div>
+    <div class="row">
+      <div class="logo">
+        <div class="logoimg"><img src="diamond.png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u >NBA</u></div>
+    </div>
+    <div class="row">
+      <div class="logo">
+        <div class="logoimg"><img src="hexagon (1).png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u >NAAC</u></div>
+    </div>
+    <div class="row">
+      <div class="logo">
+        <div class="logoimg"><img src="diamond.png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u >ARIIA</u></div>
+    </div>
+    <div class="row">
+      <div class="logo">
+        <div class="logoimg"><img src="hexagon (1).png" alt="logo" height="40px" width="40px"></div>
+      </div>
+      <div class="linkinfo"><u >NEP</u></div>
+    </div>
+    </div>
+  </div>
+
+  <div class="Departments">
+    <div class="top">
+      <div>
+        <div class="banner" style="display: flex; margin: 0;">
+          <div style="color: #0C2695; font-weight: bold; font-size: 23px;">Tenders/Quotations</div>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+      </div>
+      <p class="bluebar">See all</p>
+    </div>
+    <div class="notices">
+      <div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur..</p>
+      </div>
+      <div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur .</p>
+      </div><div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div><div class="card">
+        <h4>16 Oct 2023</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur .</p>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="footer">
+    <div class="left">
+      
+      <img src="aitlogoo.png" alt="" width="130px" height="116px"> 
+      <div class="footerinfo">
+      <div class="footerCollegeinfo">
+      ARMY INSTITUTE OF TECHNOLOGY 
+      DIGHI HILLS, PUNE 411015 
+    </div>
+    <div class="infolist">
+      <span><img src="./img/icons/mail.svg" alt=""></span>@aitpune.edu.in<br>
+      <span><img src="./img/icons/phone.svg" alt=""></span>7249250184, 7249250185 
+    </div>
+    
+      <img src="./img/icons/icons.svg" alt="" height="70px" width="150px">
+     
+    </div>
+    
+    </div>
+   
+    <div class="right">
+      <hr>
+      <div>
+        <h2>QUICK LINKS</h2>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+      </div>
+      <div>
+        <h2>EXPLORE</h2>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+      </div>
+      <div>
+        <h2>USEFUL LINKS</h2>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+        <a href="#"><b>&gt&gt</b> <u>VMEDULIFE</u></a>
+      </div>
+     <hr>
+      <div class="footer_image">
+        <div class="g20_image">
+        <img src="g20-image.jpg" width="262px">
+      </div>
+      <div class="gps_image">
+        <img src="gps-og-image.jpg" height="150px" width="262px">
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="extra"></div>
+  <script src="./script.js">
+  </script>
+</body>
+
+</html>

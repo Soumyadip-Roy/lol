@@ -1,0 +1,2123 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans;
+}
+body{
+    overflow-x: hidden;
+}
+.header_head{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #0C2695;
+    overflow-x: hidden;
+}
+.header_items{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    margin-top: 9px;
+    margin-right: 198px;
+    color: #FFF;
+    font-family: 'Inter';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+}
+.header_logo{
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.header {
+    /* position:fixed; */
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* top: 40px; */
+    min-height: 80px;
+    width: 1520px;
+    transition: 0.86s;
+    align-items: center;
+    align-items: space-between;
+    background-color: #fff;
+    color: #000;
+    padding: 0px 11.45%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 0.875rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  }
+  .header_head{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    background-color: #0C2695;
+    overflow: hidden;
+  }
+  .header_items{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    gap: 24px;
+    margin-top: 9px;
+    margin-right: 198px;
+    color: #FFF;
+    /* font-family: 'Inter'; */
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+  }
+  .header_items a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  .header .head{
+    margin: 0;
+    display: flex;
+    /* justify-content: left; */
+    text-align: left;
+    width:200px;
+    font-weight: bold;
+    margin: 1px;
+    font-size: 1rem;
+    height: 50px;
+    position: relative;
+    color: #0C2695;
+  }
+  
+  .header .head p{
+    font-size: 16px;
+    height: 50px;
+    translate: 0px -16px;
+    margin: 16px 0px;
+  }
+  
+  .header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-top: 10px;
+    font-weight: 200;
+  }
+  
+  .header nav a {
+    color: #000;
+      text-decoration: none;
+      font-size: 0.8rem;
+      margin: 10px 15px;
+      font-weight: 500;
+  }
+  
+  .hamburger{
+    position: absolute;
+    visibility: hidden;
+    top: 67px;
+    height: 38px;
+    width: 38px;
+    right: 15px;
+    background-size: contain;
+    border: 2px solid #0C2695;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  #hamburger{
+    transform: translateY(-42px);
+    transition: 0.86s;
+  }
+  
+  .hamburger img{
+    height: 38px;
+    width: 38px;
+  }
+.header2{
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+
+.logo_ait{
+    /* background: url("ait\ logo.png.png"), lightgray -12.418px -2.951px / 149.591% 134.836% no-repeat;
+    width: 45.041px;
+    height: 40px; */
+    flex-shrink: 0;
+}
+.logo_text{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 165px;
+    gap: 10px;
+}
+.logo_textpara{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text_part2{
+    display: flex;
+    justify-content: end;
+    margin-left: 426px;
+    gap: 24px;
+}
+.submit_img{
+    /* width: 140.691px; */
+    
+    flex-shrink: 0;
+    
+    margin-top: 20px;
+}
+.textii{
+    color: #000;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    margin-top: 30px;
+}
+.textii a{
+    margin-left: 24px;
+}
+.header3{
+    width: 100%;
+    height: 401px;
+    flex-shrink: 0;
+    /* position: absolute; */
+}
+.campus img{
+    background: lightgray 50% / cover no-repeat, linear-gradient(263deg, rgba(0, 0, 0, 0.00) 5.89%, rgba(255, 255, 255, 0.00) 37.4%, rgba(0, 0, 0, 0.70) 110.51%);
+    height: 401px;
+    width: 100%;
+    position: absolute;
+}
+.content_campus{
+    position: relative;
+    top: 18%;
+}
+.para2{
+    flex-shrink: 0;
+    background-color: #0C2695;
+    opacity: 0.8;
+    width: 590px;
+    height: 80px;
+    flex-shrink: 0;
+    /* position: relative; */
+    margin-left: 167px;
+    border-radius: 6px;
+    
+}
+.para2 p{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px;
+    z-index: 2;
+}
+.para3{
+    /* position: relative; */
+    width: 445px;
+    height: 63px;
+    flex-shrink: 0;
+    background-color: #4C6BF1;
+    margin-left: 167px;
+    border-radius: 6px;
+}
+.para3 p{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 16px;
+}
+.buttonha{
+    /* position: relative; */
+    display: inline-flex;
+    padding: 18px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 6px;
+    border: 1px solid #0C2695;
+    background: #0C2695;
+/* Neutral/Shadow 02 */
+    box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+    margin-left: 167px;
+    margin-top: 20px;
+}
+
+.buttonha div{
+    color: #FFF;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; 
+}
+.about_us{
+    width: 100%;
+    height: 591px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about_content{
+    width: 445px;
+    
+}
+.ab{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 64px;
+} 
+.about_vision{
+    color: #4C6BF1;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 40px;
+
+}
+.about_content{
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-left: 82px;
+    margin-top: 16px;
+}
+.about_mission{
+    color: #4C6BF1;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 82px;
+    margin-top: 40px;
+}
+.about_list{
+    height: 204px;
+    width: 445px;
+    margin-left: 100px;
+    margin-top: 16px;
+}
+.about_list li{
+    color: #6D6D6D;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+}
+
+.rectangle_blue{
+    width: 610px;
+    height: 591px;
+    flex-shrink: 0;
+    background-image: linear-gradient(124deg, #0C2695 0%, #4C6BF1 100%);
+    margin-left: 25%;
+}
+.about_image{
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat, #FFF;
+    width: 770px;
+    height: 313px;
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 2;
+    margin-top: 139px;
+    margin-left: 780px;
+} 
+.about_image img{
+    width: 540px;
+    height: 300px;
+}
+
+.main{
+    width: 100%;
+    height: 2650px;
+    background-color: #FFF;
+    display: flex;
+}
+
+.table{
+    margin-top: 106px;
+    width: 255px;
+    height: 270px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+    font-family:'Plus Jakarta Sans';
+    margin-left: 165px;
+    border-radius:8px;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 17px;
+}
+
+.table ul p{
+    color: #0C2695;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    padding-top: 12px;
+    border-style: hidden;
+    border-top: 1px solid rgba(234,234,234,1);
+    
+}
+.fetch-link.active {
+    color: #0c2695;
+    font-weight: bold;
+}
+
+.table ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+}
+#tabletop{
+    border-top: 0px;
+}
+
+.table ul a{
+    font-size: 16px;
+    color:#000000;
+    text-align:left;
+    vertical-align: middle;
+    line-height:24px;
+    border-style:hidden;
+    /* font-family:' Plus Jakarta Sans'; */
+    width: 221px;
+    height: 24px;
+    border-top: 1px solid rgba(234,234,234,1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+#hod_content{
+    margin-top: 106px;
+    /* margin-left: 0.5rem; */
+}
+.hod_content2{
+    display: flex;
+    margin-left: 30px;
+}
+/* .hod_pic{
+    background: url("image\ 1.png"), lightgray 50% / cover no-repeat;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-top: 26px;
+    margin-left: 30px;
+} */
+.hod_pic{
+    margin-top: 30px;
+    padding: 1.5px;
+    border: 3px black solid;
+    border-radius: 50%;
+}
+.hod_contain{
+    margin-top: 36px;
+    margin-left: 16px;
+}
+.head_ok{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 30px;
+}
+.hod_name{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hod_rank{
+    color: #0C2695;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 171.429% */
+    margin-top: 8px;
+}
+.hod_mail span{
+    color: #6D6D6D;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+}
+.hod_mail a{
+    color: #4C6BF1;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+text-decoration-line: underline;
+}
+.hod_text{
+    width: 842px;
+    height: 796px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.parra1{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 171.429% */
+}
+.parra2{
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans';
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 20px;
+}
+.prior{
+    text-decoration: none;
+} 
+
+.fetchLink{
+    text-decoration: none;
+}
+
+.reading_more{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 1.5rem;
+}
+.reading_more a{
+    font-size: 1.12rem;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    text-decoration: none;
+    color: #0C2695;
+}
+.reading_more img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 0.15rem;
+}
+
+
+
+/*--------------------------------- aman--------------------------------- */
+
+
+
+
+
+#lab-section{
+    margin-top: 106px;
+    font-family: 'Plus Jakarta Sans';
+    margin-left: -3.9rem;
+}
+
+
+#lab-heading{
+    margin-left: 94px;
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal; 
+}
+
+.softwarelab-1{
+    margin-left: 94px;
+    padding-top: 30px;
+    margin-right: 130px;
+}
+
+#sw1{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+#sw-lab1-pic{
+    padding-top: 30px;
+    width: 540px;
+    height: 313px;
+    border-radius: 16px;
+}
+.softwarelab-1-text{
+    padding-top: 1.5rem;
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+
+.area1{
+    padding-top: 5px;
+}
+.lab-res{
+    padding-top: 20px;
+    color: #4C6BF1;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem;
+    /* padding-bottom: 10px; */
+}
+
+.utilization{
+    padding-top: 20px;
+    color: #4C6BF1;
+    /* padding-bottom: 7px; */
+}
+
+/* .util-for1{
+    margin-bottom: 40px;
+} */
+
+/* .util-for2{
+    margin-bottom: 100px;
+} */
+#asge_hod{
+    border-top: none;
+}
+
+
+#it_hod{
+    border-top: none;
+}
+.mid-section{
+    display: flex;
+}
+
+.view_more{
+    padding-top: 1.2rem;
+    display: flex;
+    text-decoration: none;
+}
+.view_more a{
+    margin-top: none;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.view_more img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+/* --------------------------milan--------------------------------------------------------- */
+
+
+#Notices{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+#Notices h2{
+    /* margin: 1.5rem; */
+    font-size: 2rem;
+    color: #0C2695;
+}
+.notices_info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px 25px;
+    margin-top: 40px;
+}
+.notice_lists:nth-of-type(3){
+    grid-column: 3/3;
+}
+.table_and_notice{
+    display: flex
+}
+.notice_lists{
+    height: 113px;
+    width: 255px;
+    box-shadow: 1px 1px 3px rgba(0, 0,0,0.1);
+    border-radius: 10px;
+    /* margin: 1rem; */
+}
+.notice_lists .date{
+    font-size: 14px;
+    color: #0C2695;
+    font-weight: 500;
+    padding:0.9rem;
+    width: 207px;
+    height: 10px;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.notice_lists a{
+font-size: 1rem;
+font-weight: 500;
+text-align: left;
+padding: 0.9rem;
+color: black;
+text-decoration: none;
+}
+
+
+
+/* ------------------------------------------Slaybus------------------------------------------- */
+
+#asge_syllabus{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+#fe_Sylabus{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.syllabus_links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 25px;
+}
+
+.syllabus_1{
+    width: 54.4rem;
+    height: 7.0625rem;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+    border-radius: 10px;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    border-style: hidden;
+    
+}
+.syllabus_1 p{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+.syllabus_links_sppu{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 150% */
+text-decoration-line: underline;
+}
+
+/* ---------------------------------------------------Students Roll Number------------------------------------------------- */
+
+#student_roll{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+#student_roll h2{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.roll_branch{
+    display: flex;
+    margin-top: 2.69rem;
+}
+.roll_branch a{
+    color: #707070;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%; /* 1.3rem */
+    display: flex;
+    padding: 0.375rem 1.125rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    text-decoration: none;
+}
+.roll_sp{
+    border-bottom: 1px solid #EAEAEA;
+}
+#roll_special{
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: 130%; /* 1.3rem */
+border-radius: 0.25rem 0.25rem 0rem 0rem;
+border-top: 1px solid #EAEAEA;
+border-right: 1px solid #EAEAEA;
+border-left: 1px solid #EAEAEA;
+}
+.roll_branch_table{
+    width: 54rem;
+    height: 52.4375rem;
+    flex-shrink: 0;
+    margin-top: 3.12rem;
+    border-radius: 0.5rem;
+    border: 1px solid #EAEAEA;
+}
+.roll_branch_top{
+    display: flex;
+    height: 3.5rem;
+    background-color: #4C6BF1;
+    border: 1px solid #EAEAEA;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    
+    align-items: center;
+    gap: 12rem;
+    
+}
+.roll_branch_top p{
+    color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+.items{
+    margin-left: 28px;
+}
+table {
+    font-size: 16px;
+    min-width: 55vw;
+    margin-left: 26px;
+    font-weight: 600;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 10px;
+    border-left: none;
+    border-right: none;
+}
+
+thead td{
+    background-color: #4C6BF1;
+    color: #fff;
+    font-weight: lighter;
+}
+
+tbody tr{
+    background-color: #fafafa;
+}
+
+/* tbody tr:nth-child(odd) {
+    background-color: #fafafa;
+} */
+
+.pagination {
+    display: flex;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .pagination li {
+    margin-right: 5px;
+  }
+
+  .pagination a {
+    text-decoration: none;
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+tbody tr:first-child {
+    border-left: 1px solid #ddd; 
+}
+
+tbody tr:last-child {
+    border-right: 1px solid #ddd; 
+}
+
+tbody tr a{
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+.roll_no_top{
+    margin-left: 1rem;
+}
+.roll_branch_contain{
+    display: flex;
+    height: 3.5rem;
+    align-items: center;
+    gap: 14rem;
+    background:#FAFAFA;
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+.roll_branch_contain a{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+text-decoration: none;
+}
+.pagechange{
+    text-align: center;
+    margin: 20px auto 20px auto;
+}   
+.pagechange ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pagechange ul li{
+    background-color: #6D6D6D;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+/* ------------------------------------------------faculty & staff------------------------------------ */
+#faculty_asge{
+    margin-left: -2rem;
+}
+.cards{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+
+}
+
+.card{
+    margin-bottom: 25px;
+    margin-left: 0px;
+    width: 256px;
+    height: 330px;
+    display: inline-block;
+    border-radius: 16px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    margin-left: 25px;
+}
+
+.inside-card{
+    width: 208px;
+    height: 193px;
+    margin-left: 24px;
+    padding-top: 24px;
+}
+
+.faculty-heading{
+    margin-bottom: 40px;
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    margin-left: 30px;
+    
+}
+.faculty-image{
+    width: 91px;
+    height: 91px;
+}
+.faculty-image i{
+    background-color: white;
+    border:3px black solid;
+    padding: 1.5px;
+    border-radius: 50%;
+}
+
+.faculty-name{
+    height: 20px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.faculty-qualification p{
+    margin-top: 0.5rem;
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 171.429% */
+}
+
+.faculty-dept{
+    font-size: 14px;
+    margin-top: 4px;
+    color: #6D6D6D;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+#email{
+    color: #0C2695;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+
+    padding-top: 4px;
+}
+#emailid{
+    color: #6D6D6D;
+    padding-top: 1px;
+}
+.view_more{
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 171.429% */
+text-decoration-line: underline;
+margin-top: 0.3rem;
+
+}
+
+/* -----------------------------------------ASGE-RESULT---------------------------------------- */
+#result_asge{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+.result_asge_re{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.result_asge_card{
+    width: 16rem;
+    padding: 1.5rem;
+    align-items: center;
+    gap: 0.625rem;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+    border-radius: 1rem;
+}
+.result_final{
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+.result_asge_card i{
+    background-color: white;
+    border:3px black solid;
+    padding: 1.5px;
+    border-radius: 50%;
+    
+}
+.result_name{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 1rem;
+}
+.result_student{
+    margin-top: 0.5rem;
+    color: #0C2695;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+.result_branch{
+    margin-top: 0.5rem;
+    color: #6D6D6D;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 171.429% */
+}
+
+.exam_links_one img{
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+.exam_links_two img{
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+}
+
+
+
+/* ---------------------------------------------Faculty Profile------------------------------------------- */
+
+.back_pic{
+    background-image: url("aitcampbanner.jpg");
+    font-family: 'Plus Jakarta Sans';
+   height: 210px;
+     width: 100%;
+     /* opacity: 30%; */
+ }
+ 
+ .faculty_pic_name{
+     
+     font-size: 58px;
+     color: #FFF;
+     position: relative;
+     font-weight: 400;
+ }
+ .bg{
+     flex-shrink: 0;
+     background-color: #0C2695;
+     opacity: 0.8;
+     width: 605px;
+     height: 80px;
+     flex-shrink: 0;
+     /* position: relative; */
+     margin-left: 450px;
+     border-radius: 6px;
+     /* justify-content: center; */
+     /* align-items: center; */
+     position: absolute;
+     margin-top: 70px;
+ }
+ 
+ .profile-box{
+     width: 1152px;
+     height: 784px;
+     margin-left: 165px;
+     margin-top: 65px;
+     position: absolute;
+     margin-bottom: 300px;
+     box-shadow: 4px 4px 13.600000381469727px 0px #00000026;
+     display: flex;
+     flex-direction: row;
+     font-family: 'Plus Jakarta Sans';
+ }
+ 
+ 
+ 
+ .left{
+     width: 371px;
+     height: 706px;
+     background-color: #3654D2;
+     margin-left: 47px;
+     margin-top: 47px;
+     position: absolute;
+ }
+ 
+ .profile-pic{
+     width: 167px;
+     height: 200px;
+     background-color: #FFF;
+     margin-left: 102px;
+     margin-top: 66px;
+     border-radius: 5px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ 
+ .profile-pic img{
+     /* width: 118px;
+     height: 135px; */
+         
+     border-radius: 5px;
+ }
+ 
+ .profile-name p{
+     font-size: 0.8rem;
+     text-align: center;
+     margin-top: 10px;
+     font-weight: 600;
+    
+ }
+ .qualification{
+     display: flex;
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: Plus Jakarta Sans;
+     font-size: 1.5rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5rem; /* 150% */
+ }
+ 
+ .pahod{
+     margin-top: 0.5rem;
+     margin-left: 4rem;
+     color: #fff;
+ 
+     font-feature-settings: 'clig' off, 'liga' off;
+     font-family: Plus Jakarta Sans;
+     font-size: 1rem;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.5rem; /* 150% */
+     }
+ .qualification p{
+     color: white;
+     margin-left: 4rem;
+     margin-top: 53px;
+ }
+ #circle-qualification{
+     width: 30px;
+     height: 30px;
+     margin-left: 19px;
+     margin-top: 50px;
+     position: absolute;
+ }
+ 
+ #pic-qualification{
+     width: 20px;
+     height: 20px;
+     margin-left: 25px;
+     margin-top: 55px;
+     position: absolute;
+ }
+ 
+ .contact-heading{
+     margin-left: 23px;
+     margin-top: 2rem;
+ }
+ .contact-heading p{
+     font-size: 25px;
+     color: #FFF;
+ }
+ 
+ .contact-line{
+     margin-top: 13px;
+ }
+ 
+ #circle-phone{
+     width: 30px;
+     height: 30px;
+     margin-left: 19px;
+     margin-top: 25px;
+     position: absolute;
+ }
+ 
+ #pic-phone{
+     width: 15px;
+     height: 15px;
+     margin-left: 26px;
+     margin-top: 33px;
+     position: absolute;
+ }
+ .phone{
+     display: flex;
+ }
+ .phone p{
+     margin-top: 28px;
+     margin-left: 4rem;
+     font-size: 1rem;
+     color: white;
+ }
+ .email{
+     margin-top: -1.5rem;
+     display: flex;
+ }
+ 
+ #circle-email{
+     width: 30px;
+     height: 30px;
+     margin-left: 19px;
+     margin-top: 48px;
+     position: absolute;
+ }
+ .email p{
+     margin-top: 52px;
+     margin-left: 4rem;
+     font-size: 1rem;
+     color: white;
+ }
+ 
+ #pic-email{
+     width: 20px;
+     height: 20px;
+     margin-left: 24px;
+     margin-top: 52.7px;
+     position: absolute;
+ }
+ 
+ 
+ #circle-web{
+     width: 30px;
+     height: 30px;
+     margin-left: 19px;
+     margin-top: 115px;
+     position: absolute;
+ }
+ 
+ #pic-web{
+     width: 20px;
+     height: 20px;
+     margin-left: 24px;
+     margin-top: 120px;
+     position: absolute;
+ }
+ 
+ #circle-location{
+     width: 30px;
+     height: 30px;
+     margin-left: 19px;
+     margin-top: 158px;
+     position: absolute;
+ }
+ 
+ #pic-location{
+     width: 20px;
+     height: 20px;
+     margin-left: 24px;
+     margin-top: 164px;
+     position: absolute;
+ }
+ 
+ .faculty_pub1{
+     width: 1152px;
+ height: 400px;
+ flex-shrink: 0;
+ background-color: #D9D9D9;
+ margin-top: 931px;
+ margin-left: 167px;
+ position: absolute;
+ }
+ .faculty_boxii{
+     display: flex;
+     margin-top: 24px;
+     margin-left: 65px;
+     gap: 22px;
+ }
+ .faculty_box1{
+     width: 184px;
+ height: 40px;
+ flex-shrink: 0;
+ background-color: #FFF;
+ border: 1px solid rgba(0, 0, 0, 0.30);
+ border-top: 3px solid  #3654D2;
+ padding-top: 0.5rem;
+ padding-left: 1.38rem;
+ }
+ .faculty_box2{
+     width: 140px;
+     height: 40px;
+     flex-shrink: 0;
+     background-color: #FFF;
+     border: 1px solid rgba(0, 0, 0, 0.30);
+     padding-top: 0.5rem;
+     padding-left: 1.38rem;
+ }
+ .faculty_box_contain{
+     width: 1022px;
+ height: 300px;
+ flex-shrink: 0;
+ background: #FFF;
+ margin-left: 65px;
+ }
+ 
+ .right{
+     margin-left: 27.06rem;
+     margin-top: 2.56rem;
+ }
+ .right_head{
+     display: flex;
+     gap: 0.25rem;
+ }
+ .right_profile{
+     color: #0C2695;
+ leading-trim: both;
+ text-edge: cap;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: 'Plus Jakarta Sans';
+ font-size: 32px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ }
+ .right img{
+     width: 1.9rem;
+ height: 2rem;
+ flex-shrink: 0;
+ margin-top: 0.23rem;
+ }
+ .right_line{
+     width: 41rem;
+ height: 0.125rem;
+ background:  rgba(0, 0, 0, 0.26);;
+ }
+ 
+ .profile_text{
+     margin-top: 1.12rem;
+     padding-right: 3.56rem;
+ }
+ .profile_text p{
+     color: #000;
+ leading-trim: both;
+ text-edge: cap;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-size: 1rem;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.5rem; /* 150% */
+ }
+ .f_patent{
+     color: #0C2695;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-size: 1.25rem;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 1.5rem; /* 120% */
+ text-decoration: none;
+ font-family: 'Plus Jakarta Sans';
+ }
+ 
+ .faculty_box_contain p{
+     color: #000;
+ leading-trim: both;
+ text-edge: cap;
+ font-feature-settings: 'clig' off, 'liga' off;
+ font-family: 'Plus Jakarta Sans';
+ font-size: 1rem;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 1.5rem; /* 150% */
+ padding-top: 2.88rem;
+ padding-left: 1.69rem;
+ padding-right: 1.69rem;
+ }
+/* --------------------------------------------------ASGE ACTIVITIES-------------------------------------------------- */
+#activity_content{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+#activity_content h2{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.act_con{
+    color: #6D6D6D;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 18px;
+margin-bottom: 20px;
+}
+.indp{
+    margin-bottom: 25px;
+    width: 54.4rem;
+    height: 8.875rem;
+    border: 1px solid rgba(234,234,234,1);
+    flex-shrink: 0;
+    border-radius: 1rem;
+    fill: var(--theme-white-default, #FFF);
+    /* padding-top: 1.25rem; */
+    /* padding-left: 1.5rem; */
+    
+}
+.tab { 
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    margin-top: 0.3rem;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 150% */
+    width: 48.75rem;
+    height: 5.0625rem;
+    flex-shrink: 0;
+    /* justify-content: space-evenly; */
+    /* margin-top: 0.5rem; */
+    row-gap: 0.5rem;
+   
+    
+}
+.indc1{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 160% */
+
+}
+.indp_content{
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;
+}
+.tab a{
+    text-decoration: none;
+    color: black;
+}
+/* ------------------------------------------industrial----------------------------------------------------- */
+#industrial_visit{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7rem;
+    margin-left: 1.87rem;
+}
+#industrial_visit h1{
+    color: #0C2695;
+    font-size: 2rem;
+
+}
+#industrial_visit p{
+    color: #6D6D6D;
+    margin-top: 18px;
+    margin-bottom:18px ;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.industrial_visit_links{
+    height: 112px;
+    width: 868px;
+    border-radius: 10px;
+    border: solid 0.1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 1.31rem;
+}
+
+.industrial_visit_links img{
+    margin-left: 0.8rem;
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-bottom: 0.35rem;
+}
+.industrial_visit_links a{
+    color: #000;
+    padding: 0.4rem 0.8rem 0.8rem 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+/* ---------------------------------------------------PROJECTS------------------------------------- */
+#project{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+    font-weight: 500;
+}
+.project_para{
+    color: #6D6D6D;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+#project h1{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+.project_topic_name{
+    margin-top: 3rem;
+}
+
+.camp{
+    background-image: url(aitcampbanner.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 401px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about{
+    display: flex;
+    width: 260px;
+    height: 80px;
+    background-color: #0C2695;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+/* leading-trim: both;
+text-edge: cap; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.about1{
+   
+    width: 445px;
+    height: 63px;
+    flex-shrink: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+    background-color: #4C6BF1;
+    opacity: 0.7;
+    color: #FFF;
+    text-align: center;
+    /* leading-trim: both;
+    text-edge: cap; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.project_lists{
+    height: 336px;
+    width: 868px;
+    background-color:rgba(234, 234, 234, 0.4275);
+    display: flex;
+    padding: 1.6rem 1.4rem 1.6rem 1.4rem;
+    /* box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25); */
+}
+.project_details p{
+    color: #000000;
+    font-family:'Plus Jakarta Sans'; 
+    font-size: 1rem;
+    margin:  0.3rem 0rem;
+}
+
+#project span{
+    color: #0C2695;
+    font-family:'Plus Jakarta Sans'; 
+    font-weight: 500;
+}
+#project_faculty_incharge{
+    margin: 20px 0rem 20px 0rem;
+}
+#project_details_tech{
+    margin-top: 18px;
+}
+.project_img img{
+    height: 196px;
+    width: 284px;
+}
+.underline{
+    height: 1px;
+    width: 111px;
+    background-color: #6D6D6D;
+    margin-top: 0.2rem;
+}
+.project_img_topic{
+    margin-right: 24px;
+    margin-left: 3rem;
+    height: 296px;
+    width: 288px;
+}
+.project_details a{
+    color: #0C2695;
+    font-family:'Plus Jakarta Sans';
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 5px;
+    font-weight: 500;
+}
+.project_details li{
+    list-style: none;
+    font-family:'Plus Jakarta Sans';
+    font-size: 1rem;
+}
+.project_read_more{
+    margin-top: 1rem;
+}
+.project_background{
+    background-color: #FFF;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.project_read_more img{
+    width: 1.3125rem;
+height: 1.125rem;
+flex-shrink: 0;
+margin-top: 0.22rem;
+}
+.project_read_more{
+    display: flex;
+}
+.project_read_more{
+    display: flex;
+}
+
+.project_more p{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 3rem;
+}
+.project_link{
+    display: flex;
+    margin-top: 2rem;
+}
+.project_link img{
+    height: 1.2rem;
+    width: 1.2rem;
+}
+.project_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+/* --------------------------------------------TIMETABLE------------------------------------- */
+
+
+#timetable{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+#timetable h1{
+    color: #0C2695;
+    font-size: 2rem;
+    margin-bottom: 40px;
+
+}
+
+
+/* -------------------------------------------------EXAM SECTION -----------------------------------------*/
+
+#exam_section{
+    font-family: 'Plus Jakarta Sans';
+    margin-top: 7.315rem;
+    margin-left: 1.87rem;
+}
+
+.exam_heading{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.exam_links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.exam_links_one{
+    width: 54.3rem;
+    height: 4.3125rem;
+    flex-shrink: 0;
+    background: #FAFAFA;
+    padding-top: 1.3rem;
+    padding-left: 1.12rem;
+    
+}
+.exam_links_two{
+    width: 54.3rem;
+    height: 4.3125rem;
+    flex-shrink: 0;
+    background: #FFF;
+    padding-top: 1.3rem;
+    padding-left: 1.12rem;
+}
+#link_exam{
+    color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5rem; /* 150% */
+padding-left: 1.12rem;
+}
+
+
+/*----------------------------------------------------- RESEARCH AND DEVELOPMENT -----------------------------------------------------*/
+
+#RandD{
+    margin-top: 106px;
+    margin-left: 2rem;
+    font-family: 'Plus Jakarta Sans';
+}
+#RandD h1{
+    color: #0C2695;
+    font-size: 2rem;
+    display: inline-block;
+
+}
+.item{
+    display: flex;
+}
+.item img{
+    width: 1.375rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    margin-top: 0.22rem;
+}
+#RandD h6{
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#RandD .pub{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 30px;
+    margin-bottom: 25px;
+    width: 865px;
+    font-weight: 600;
+    border-radius: 15px;
+    
+}
+
+
+#RandD .pub h3{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.4785rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.4785rem; /* 100% */
+}
+#research_year{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.4785rem; /* 147.849% */
+}
+#but{
+        border-radius: 6px;
+        border: 1px solid #0C2695;
+        background: #0C2695;
+        box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+        color: var(--neutral-colors-100, #FFF);
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 22px;
+        padding: 18px 22px 18px 22px;
+}
+.pagechange{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 1rem;
+}
+#roll_button_1{
+    border-radius: 50%;
+    margin-right: 1rem;
+   
+    background-color: #ffff;
+    border: 1.2px solid #4C6BF1;
+}
+#roll_button_2{
+    border-radius: 50%;
+    margin-right: 1rem;
+    
+    background-color: #ffff;
+    border: 1.2px solid #4C6BF1;
+}
+#roll_button_3{
+    border-radius: 50%;
+    margin-right: 1rem;
+   
+    background-color: #ffff;
+    border: 1.2px solid #4C6BF1;
+}
+#roll_button_4{
+    border-radius: 50%;
+    margin-right: 1rem;
+   
+    background-color: #ffff;
+    border: 1.2px solid #4C6BF1;
+}
+#roll_button_5{
+    border-radius: 50%;
+    margin-right: 1rem;
+    
+    background-color: #ffff;
+    border: 1.2px solid #4C6BF1;
+}
+
+/* -------------------------------placement------------------------- */
+.tab1{
+    border-radius: 0.28738rem;
+    background: var(--Button-White-Fill-and-Text, #FFF);
+    box-shadow: 0px 4.598px 9.197px 0px rgba(14, 19, 25, 0.08);
+}
+.headr{
+    display: flex;
+    width: 48.45rem;
+    height: 2.875rem;
+    padding: 0.7185rem 1.00588rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.28738rem;
+    flex-shrink: 0;
+    border-radius: 0.28738rem;
+    /* background-color: aqua; */
+    background: var(--Button-White-Fill-and-Text, #FFF);
+    box-shadow: 0px 4.598px 9.197px 0px rgba(14, 19, 25, 0.08);
+    
+}
+.row1{
+    color: var(--Title, #0E1319);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 0.86219rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2rem; /* 100% */
+    /* text-transform: capitalize; */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-right: 1.15px solid rgba(162, 168, 173, 0.80);
+}
+.nomr{
+    display: flex;
+
+    width: 48.45rem;
+    height: 2.875rem;
+    padding: 0.21556rem 0rem 0.21556rem 0.7185rem;
+    /* justify-content: space-between; */
+    /* padding-left: 2rem;
+    padding-right: 4rem; */
+    align-items: center;
+    gap: 0.28738rem;
+    border-bottom: 1.15px solid var(--Button-Disabled-Fill, #EAEAEA);
+    color: var(--Body-text, #3C3737);
+    text-align: center;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.00588rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.row2{
+    display: flex;
+    width: 116.17px;
+    /* width: 7.18506rem;
+    height: 2.29919rem; */
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row3{
+    width: 104.8px;
+}
+
+.row4{
+    width: 134px;
+}
+.row5{
+    width: 134px;
+}
+.row6{
+    padding-left: 0.5rem;
+    width: 125.84px;
+}
+.row7{
+    padding-left: 1rem;
+    width: 103.29px;
+}
+
+#okk{
+    display: flex;
+}
+#okk2{
+    margin-top: 4px;
+}

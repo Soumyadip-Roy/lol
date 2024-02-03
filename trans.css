@@ -1,0 +1,9 @@
+.content-transition {
+    opacity: 1;
+    transition: opacity 0.86s ease-in-out;
+}
+
+.content-transition:not(.content-transition) {
+    opacity: 0;
+    transition: opacity 0.86s ease-in-out;
+}
